@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Panel del Chat */
+#panel-chat {
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Encabezados */
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+/* Panel de texto */
+#panel-text {
+    background-color: gray;
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+#contenido {
+    background-color: lightgray;
+}
+
+.titulo {
+    background-color: #007bff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Mensajes */
+.msg-chat {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    margin: 5px 0;
+    word-wrap: break-word; 
+}
+
+.user-message {
+    align-self: flex-end; 
+    background-color: #d1ecf1;
+}
+
+.bot-message {
+    align-self: flex-start; 
+    background-color: #f8d7da;
+}
+
+/* Entrada de usuario */
+.panel-entrada {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.msg-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.msg-user input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.msg-user button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.msg-user button:hover {
+    background-color: #0056b3;
+}
+
+/* Opciones */
+.panel-opciones {
+    text-align: center;
+    padding: 10px;
+}
+
+.panel-opciones button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.panel-opciones button:hover {
+    background-color: #0056b3;
+}
